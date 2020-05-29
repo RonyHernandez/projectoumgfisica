@@ -19,7 +19,7 @@ class Home extends Component<IHomeProps> {
               <h1> Bienvenidos al projecto de Fisica</h1>
             </div>
             <div className="ats-mainsearch">
-              <a href="">
+              <a href="conversiones/">
                 <img className="icons-fisic" src="/public/img/mesure-icon.png" title="Conversiones" />
               </a>
               <a href="">
