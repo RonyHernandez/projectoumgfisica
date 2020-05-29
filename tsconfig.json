@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./build/public/",
+    "target": "es5",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom", "dom.iterable"],
+    "sourceMap": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "strictBindCallApply": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["src/client/definitions", "node_modules/@types"],
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["client/*"],
+      "@components/*": ["client/components/*"],
+      "@definitions/*": ["client/definitions/*"],
+      "@utils/*": ["client/utils/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "build"]
+}

@@ -1,0 +1,48 @@
+.ats-mainsearch {
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  padding: 18px 15px 30px 15px;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+.fisic-text {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  text-align: center;
+  color: #363636;
+}
+.icons-fisic {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 374px) {
+  .ats-mainsearch {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ats-mainsearch {
+    max-width: 620px;
+    margin-top: -24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ats-mainsearch {
+    max-width: 936px;
+    padding: 40px 40px 40px 40px;
+    margin-top: -48px;
+  }
+  .ats-mainsearch__title {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}

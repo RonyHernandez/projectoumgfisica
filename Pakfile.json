@@ -1,0 +1,25 @@
+{
+  "name": "${ALPHA_NAME}",
+  "path": "${PAK_BUILD_PATH}",
+  "metadata": {
+    "ALPHA_BUILD":"${ALPHA_BUILD}",
+    "ALPHA_DATE":"${ALPHA_DATE}",
+    "ALPHA_JOBNAME":"${ALPHA_JOBNAME}",
+    "ALPHA_JOBBUILD":"${ALPHA_JOBBUILD}",
+    "ALPHA_BUILDER":"${ALPHA_BUILDER}",
+    "COMMIT_HASH":"${COMMIT_HASH}"
+    },
+
+  "promote":{
+    "rc":{
+      "name": "${RC_NAME}",
+      "metadata": {
+      "REL_BUILD":"${REL_BUILD}",
+      "REL_DATE":"${REL_DATE}",
+      "REL_JOBNAME":"${REL_JOBNAME}",
+      "REL_JOBBUILD":"${REL_JOBBUILD}",
+      "REL_BUILDER":"${REL_BUILDER}"
+      }
+    }
+  }
+}

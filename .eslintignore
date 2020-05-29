@@ -1,0 +1,21 @@
+# /node_modules/* in the project root is ignored by default
+.deploy/**
+.vscode/**
+
+# build artefacts
+dist/**
+build/**
+public/**
+coverage/**
+
+# data definition files
+**/*.d.ts
+
+# 3rd party libs
+/src/public/
+*.min.js
+
+# custom definition files
+/src/types/
+/src/static/
+

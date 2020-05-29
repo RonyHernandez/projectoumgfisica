@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "msjsdiag.debugger-for-chrome",
+    "editorconfig.editorconfig",
+    "davidanson.vscode-markdownlint",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "cssho.vscode-svgviewer",
+    "dbaeumer.vscode-eslint",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
