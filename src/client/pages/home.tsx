@@ -28,12 +28,8 @@ class Home extends Component<IHomeProps> {
               <a href="/newton/">
                 <img className="icons-fisic" src="/public/img/fma.jpg" title="Segunda ley de newton" />
               </a>
-              <a href="">
-                <img
-                  className="icons-fisic"
-                  src="https://media-exp1.licdn.com/dms/image/C4E03AQHRZ-drjGnpzg/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=HRlqQK29jEaElqCBD6uat08UjbZdjxtWsDGaovig_VQ"
-                  title="Informacion del alumno"
-                />
+              <a href="/alumno/">
+                <img className="icons-fisic" src="/public/img/student.png" title="Informacion del alumno" />
               </a>
             </div>
           </div>
