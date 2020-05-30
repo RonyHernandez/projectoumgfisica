@@ -10,16 +10,16 @@ export function Footer() {
               <p>Projecto - Fisica 1 </p>
               <ul>
                 <li>
-                  <a href={`/`}>Informacion del Alumno</a>
+                  <a href={`/alumno/`}>Informacion del Alumno</a>
                 </li>
                 <li>
-                  <a href={`/`}>Conversiones</a>
+                  <a href={`/conversiones/`}>Conversiones</a>
                 </li>
                 <li>
-                  <a href={`/`}>Segunda ley de newton</a>
+                  <a href={`/newton/`}>Segunda ley de newton</a>
                 </li>
                 <li>
-                  <a href={`/`}>Suma de Vectores</a>
+                  <a href={`/vectores/`}>Suma de Vectores</a>
                 </li>
               </ul>
             </div>

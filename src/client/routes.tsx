@@ -2,6 +2,7 @@ import Home from '@src/pages/home';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Conversion from './pages/conversion';
+import Vector from './pages/vector';
 
 const Routes = () => {
   return (
@@ -13,8 +14,8 @@ const Routes = () => {
         <Route exact path={`/conversiones/`}>
           <Conversion />
         </Route>
-        <Route exact path={`/segunda-newton/`}>
-          <Home />
+        <Route exact path={`/vectores/`}>
+          <Vector />
         </Route>
         <Route exact path={`/alumno/`}>
           <Home />

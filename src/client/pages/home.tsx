@@ -19,13 +19,13 @@ class Home extends Component<IHomeProps> {
               <h1> Bienvenidos al projecto de Fisica</h1>
             </div>
             <div className="ats-mainsearch">
-              <a href="conversiones/">
+              <a href="/conversiones/">
                 <img className="icons-fisic" src="/public/img/mesure-icon.png" title="Conversiones" />
               </a>
-              <a href="">
+              <a href="/vectores/">
                 <img className="icons-fisic" src="/public/img/sigma_math.png" title="Suma de vectores" />
               </a>
-              <a href="">
+              <a href="/newton/">
                 <img className="icons-fisic" src="/public/img/fma.jpg" title="Segunda ley de newton" />
               </a>
               <a href="">

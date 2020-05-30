@@ -26,16 +26,16 @@ export default function Nav() {
                       </Link>
                       <ul>
                         <li>
-                          <Link to={`/`}>Informacion del Alumno</Link>
+                          <Link to={`/alumno/`}>Informacion del Alumno</Link>
                         </li>
                         <li>
-                          <Link to={`/`}>Conversiones</Link>
+                          <Link to={`/conversiones/`}>Conversiones</Link>
                         </li>
                         <li>
-                          <Link to={`/`}>Segunda Ley de Newton</Link>
+                          <Link to={`/newton/`}>Segunda Ley de Newton</Link>
                         </li>
                         <li>
-                          <Link to={`/`}>Suma de Vectores</Link>
+                          <Link to={`/vectores/`}>Suma de Vectores</Link>
                         </li>
                       </ul>
                     </li>
